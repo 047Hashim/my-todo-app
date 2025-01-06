@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo-app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <header>
+        <h1>To-Do App</h1>
+      </header>
+
+      <div class="curr-date">
+        <p class="date"></p>
+      </div>
+      <main>
+        <div class="container">
+          <form>
+            <input
+              type="text"
+              id="input-txt"
+              placeholder="Today, what do you want to do?"
+            />
+            <button id="add-btn">Add</button>
+          </form>
+          <ul class="task-list">
+            <li class="list">
+              <input type="checkbox" /> <span>Workout at 7am </span>
+              <span class="btns"
+                ><button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button></span
+              >
+            </li>
+            <li class="list">
+              <input type="checkbox" /> <span>Go to the office at 9am</span>
+              <span class="btns"
+                ><button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button></span
+              >
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
