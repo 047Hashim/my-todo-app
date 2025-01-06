@@ -2,8 +2,8 @@
 
 ## Result
 
-[Check out the live version here]()
-![Project Screenshot](images/todo-screenshot.png)
+[Check out the live version here](https://047hashim.github.io/my-todo-app/)
+![Project Screenshot](./images/todo-screenshot.png)
 
 
 
