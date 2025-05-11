@@ -111,7 +111,7 @@ form #add-btn:hover {
 }
 .task-list li .content {
   display: inline-block;
-  max-width: 68%;
+  max-width: 66%;
   word-wrap: break-word;
   color: #4b5945;
 }
