@@ -8,7 +8,7 @@ addBtn.addEventListener("click", (e) => {
     taskList.insertAdjacentHTML(
       "beforeend",
       `<li class="list">
-            <input type="checkbox" /> <span>${inputTxt.value}</span>
+            <input type="checkbox" /> <span class='content'>${inputTxt.value}</span>
             <span class="btns"
               ><button class="edit-btn">Edit</button>
               <button class="delete-btn">Delete</button></span
