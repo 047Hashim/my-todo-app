@@ -189,6 +189,7 @@ input[type="checkbox"] {
 
 @media (max-width: 600px) {
   .task-list li .content {
-    max-width: 49%;
+    max-width: 47%;
+    padding-right: 4px;
   }
 }
